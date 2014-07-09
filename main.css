@@ -168,33 +168,35 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 /** the end of the reset **/
 
+
+
 /**************************************************
  Write specific website CSS styles here 
  ***************************************************/
  
- ul {text-decoration:none;}
- 
- #topMenu ul li {float:right;
- 	font-size:1em;
- 	color:dark grey;
- 	padding:15px;}
- 
- #logo {clear:both;
- 		padding-top:150px;
- 		text-align:center;}
- 		 
- form {text-align:center;
- 		padding-bottom:25px;}
- 		
- button {
- 			margin:20px;}
- 
- #buttons {width:300px;
- 			margin:5px auto;}
- 			
- #saying {clear:both;
- 			text-align:center;
- 			}
+body {background-color:#32dfee;}
+
+#topMenu ul li {float:right;
+	font-size:1em;
+	color:dark grey;
+	padding:15px;
+	margin-right:50px;}
+
+#logo {clear:both;
+	padding-top:150px;
+	text-align:center;}
+	 
+form {text-align:center;
+	padding-bottom:25px;}
+	
+button {margin:20px;}
+
+#buttons {width:300px;
+	margin:5px auto;}
+		
+#saying {clear:both;
+	text-align:center;
+}
 
 
 
