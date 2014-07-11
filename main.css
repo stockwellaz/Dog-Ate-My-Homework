@@ -177,10 +177,29 @@ only screen and (min-device-pixel-ratio: 1.5) {
 body {background-color:#32dfee;}
 
 #topMenu ul li {float:right;
-	font-size:1em;
+	font-size:1.5em;
 	color:dark grey;
 	padding:15px;
 	margin-right:50px;}
+	
+#topMenu {height:60px;
+		top:0;
+		position:fixed;
+		background-color:white; 
+		opacity:.8;
+		width:100%;
+		margin:auto;
+}
+
+nav ul {list-style-type:none;}
+
+nav li a{text-decoration:none;
+		color:black;
+}
+
+nav li a:hover {color:grey;
+	font-style:italic;
+}
 
 #logo {clear:both;
 	padding-top:150px;
